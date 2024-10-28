@@ -1,0 +1,65 @@
+body {
+    background-color: #1c1c1c;
+    color: #00ff00;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+    width: 300px;
+}
+
+h1 {
+    color: #00ff00;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="username"],
+input[type="password"],
+input[type="nomorHP"],
+input[type="date"],
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #222;
+    color: #00ff00;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+input[type="file"] {
+    padding: 3px;
+}
+
+::placeholder {
+    color: #00ff00;
+    opacity: 0.6;
+}
+
+input[type="username"]:focus,
+input[type="password"]:focus,
+input[type="nomorHP"]:focus,
+input[type="date"]:focus,
+input[type="file"]:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 255, 0, 0.5);
+}
